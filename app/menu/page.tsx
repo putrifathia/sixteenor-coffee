@@ -17,7 +17,7 @@ export default function MenuPage() {
           <div key={item.id} style={cardStyle}>
             <span style={categoryStyle}>{item.category.toUpperCase()}</span>
             <h3 style={{ margin: '15px 0' }}>{item.name}</h3>
-            <p style={{ color: '#d4a373', fontWeight: 'bold' }}>Rp {item.price}</p>
+            <p style={{ color: '#d4a373', fontWeight: 'bold' }}> {item.price}</p>
             <p style={{ fontSize: '0.85rem', color: '#aaa', marginTop: '10px' }}>
               Kenikmatan kopi pilihan S!XTEENOR yang diproses dengan dedikasi tinggi.
             </p>
